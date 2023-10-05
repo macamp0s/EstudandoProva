@@ -22,7 +22,8 @@ const MySectionList=({navigation})=>{
                 <View style={MyStyle.valores}>
                     <View>
                 
-                <Text style={MyStyle.texto}><MyIconButton icone={item.icon }
+                <Text style={MyStyle.texto}><MyIconButton icone={item.icon } nome={item.nome} 
+                valor={item.valor} horario={item.horario}
                 ></MyIconButton> {item.nome} {item.valor}</Text></View>  
                 <Text style={MyStyle.textohorario}>{item.horario}</Text></View>
             )

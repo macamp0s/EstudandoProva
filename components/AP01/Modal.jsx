@@ -3,16 +3,18 @@ import { Button, View, Text, TextInput, StyleSheet, Pressable, Image, ScrollView
 import dados from "./MeusDados";
 import MyStyle from "./EstiloAP";
 import MyIconButton from "./MyIconButton";
+import { useRoute } from "@react-navigation/native";
 
 
 const MeuModal=()=>{
     const route = useRoute();
-    const { nome, valor } = route.params;
+    const { nome, horario, valor } = route.params;
   
     return (
       <View>
         <Text>Nome: {nome}</Text>
-        <Text>Valor: {valor}</Text>
+        <Text>Horario: {valor}</Text>
+        <Text>Horario: {horario}</Text>
         
       </View>)
 }
