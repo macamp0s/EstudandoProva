@@ -14,6 +14,8 @@ import MyNetworking from './components/14MyNetworking/14MyNetworking';
 import MainScreen from './components/15NavigationAula/15NavStack/MainScreeen';
 import PokemonApp from './components/16Pokemon/PokemonApp';
 import MyIconButton from './components/17MyIconButton/MyIconButton';
+import Questao01 from './components/AP01/Questao01';
+import Ap01App from './components/AP01/AP01APP';
 
 
 export default function App() {
@@ -35,7 +37,9 @@ export default function App() {
 
      //<MainScreen></MainScreen>
       
-     <PokemonApp></PokemonApp>
+     //<PokemonApp></PokemonApp>
+
+     <Ap01App></Ap01App>
 
      //<MyIconButton></MyIconButton>
     //</View>
