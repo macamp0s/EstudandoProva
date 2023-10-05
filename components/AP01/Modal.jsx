@@ -12,8 +12,8 @@ const MeuModal=()=>{
   
     return (
       <View>
-        <Text>Nome: {nome}</Text>
-        <Text>Horario: {valor}</Text>
+        <Text  style={MyStyle.textomaior}>Nome: {nome}</Text>
+        <Text  style={MyStyle.textomaior}>Valor: {valor}</Text>
         <Text>Horario: {horario}</Text>
         
       </View>)

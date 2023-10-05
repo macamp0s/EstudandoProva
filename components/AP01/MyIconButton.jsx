@@ -7,7 +7,7 @@ import { useNavigation } from "@react-navigation/native";
 
 
 
-const MyIconButton = ({ icone, nome, horario }) => {
+const MyIconButton = ({ icone, nome, horario, valor }) => {
     const navigation = useNavigation();
 
     return (
@@ -25,7 +25,7 @@ const MyIconButton = ({ icone, nome, horario }) => {
                     icon={icone}
                     iconColor={MD3Colors.tertiary0}
                     size={22}
-                    onPress={()=>navigation.navigate("MeuModal", {nome, horario})}
+                    onPress={()=>navigation.navigate("MeuModal", {nome, valor,horario})}
                     mode="contained"
 
                 />
