@@ -48,6 +48,7 @@ const MyStyle= StyleSheet.create({
     textomaior:{
         fontSize:30,
         fontWeight:"bold",
+        color:"white"
     }
 })
 

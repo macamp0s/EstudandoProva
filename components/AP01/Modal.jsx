@@ -11,10 +11,10 @@ const MeuModal=()=>{
     const { nome, horario, valor } = route.params;
   
     return (
-      <View>
+        <View style={MyStyle.container}>
         <Text  style={MyStyle.textomaior}>Nome: {nome}</Text>
         <Text  style={MyStyle.textomaior}>Valor: {valor}</Text>
-        <Text>Horario: {horario}</Text>
+        <Text style={MyStyle.texto}>Horario: {horario}</Text>
         
       </View>)
 }
